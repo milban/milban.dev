@@ -1,8 +1,13 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import {Link, PageProps} from "gatsby"
+import {FC} from "react";
 
-const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`
+interface LayoutProps extends Pick<PageProps, 'location'> {
+  title: string
+}
+
+const Layout: FC<LayoutProps> = ({ location, title, children }) => {
+  const rootPath = `milban.dev/`
   const isRootPath = location.pathname === rootPath
   let header
 
