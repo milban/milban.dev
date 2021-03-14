@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `milban.dev`,
     author: {
-      name: `milban 박준혁`,
+      name: `milban`,
       summary: `이것저것 하는걸 좋아하는 프론트엔드 개발자`,
     },
     description: `개발 관련된 생각과 공부 정리`,
