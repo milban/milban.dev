@@ -86,7 +86,7 @@ SSR 환경에서 `styled-components`를 사용하기 위해서는 `babel-plugin-
 
 ### HTML에 서버에서 style 넣을 공간 만들기
 
-[SPA기반 SSR 구현하기 (feat.React) 4-서버에서 클라이언트로 데이터 전달하기](https://milban.dev/SPA%EA%B8%B0%EB%B0%98%20SSR%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0%20(feat.React)%204-%EC%84%9C%EB%B2%84%EC%97%90%EC%84%9C%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EB%A1%9C%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0)에서
+[SPA기반 SSR 구현하기 (feat.React) 4-서버에서 클라이언트로 데이터 전달하기](https://milban.dev/SPA%EA%B8%B0%EB%B0%98%20SSR%20%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0%20(feat.React)%204-%EC%84%9C%EB%B2%84%20%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%A5%BC%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%EB%A1%9C%20%EC%A0%84%EB%8B%AC%ED%95%98%EA%B8%B0/)에서
 구현한 것 처럼, 서버에서 생성된 스타일을 클라이언트로 전달하기 위한 공간을 `__STYLE_FROM_SERVER__`와 같이 만들어줍니다.
 
 - `template/index.html`
